@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2nd+Chapter | Preloved Men's and Women's Fashion</title>
+<meta name="description" content="Great-condition preloved fashion at the lowest prices. Menswear first, womenswear too. WhatsApp to order.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{--accent:#2B50E6;--navy:#101B2D;--muted:#3B475A;--bg:#F3F5F8;--yellow:#FFC53D}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--navy);font-family:Inter,system-ui,sans-serif;font-size:16px;line-height:1.5}
+a{color:inherit;text-decoration:none}
+a:hover{opacity:.82}
+a:focus-visible,button:focus-visible{outline:3px solid var(--navy);outline-offset:3px}
+button{font-family:inherit;cursor:pointer}
+h1,h2,h3,p{margin:0}
+.display{font-family:'Bricolage Grotesque','Space Grotesk',system-ui,sans-serif;font-weight:800}
+.wrap{max-width:1200px;margin:0 auto}
+header{padding:16px 24px}
+header .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 24px}
+.logo{font-size:28px;letter-spacing:-.02em;display:inline-flex;align-items:center;min-height:44px}
+.logo span{color:var(--accent)}
+nav{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px}
+nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;font-weight:500}
+nav a.cta{padding:0 20px;border-radius:999px;background:var(--navy);color:#fff;font-weight:600}
+#top{padding:40px 24px 56px}
+#top .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:40px 56px}
+.hero-l{flex:1 1 420px;min-width:0;display:flex;flex-direction:column;gap:24px;align-items:flex-start}
+.badge{display:inline-flex;align-items:center;min-height:32px;padding:0 14px;border-radius:999px;background:var(--yellow);font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+h1{font-size:clamp(42px,6.4vw,80px);line-height:1;letter-spacing:-.03em;text-wrap:balance}
+.lead{max-width:520px;font-size:19px;color:var(--muted)}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;min-height:52px;padding:0 28px;border-radius:999px;font-weight:600;font-size:17px}
+.btn.fill{background:var(--accent);color:#fff}
+.btn.line{border:2px solid var(--navy)}
+.hero-r{flex:1 1 340px;min-width:0;display:flex;flex-direction:column;gap:22px;align-items:center;padding:16px 0}
+.tag{width:100%;max-width:380px;display:flex;align-items:center;gap:16px;padding:22px 24px;border-radius:20px}
+.tag i{flex:0 0 14px;width:14px;height:14px;border-radius:999px;background:var(--bg)}
+.tag b{display:block;font-family:'Bricolage Grotesque',system-ui,sans-serif;font-weight:800;font-size:28px;line-height:1.1}
+.tag small{display:block;font-size:15px;margin-top:4px}
+#shop{padding:40px 24px 64px;background:#fff}
+#shop .wrap{display:flex;flex-direction:column;gap:28px}
+.shop-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px}
+h2{font-size:40px;line-height:1.05;letter-spacing:-.02em}
+.count{font-weight:600;color:var(--muted)}
+.row{display:flex;flex-wrap:wrap;gap:10px}
+.ward{min-height:52px;padding:0 28px;border-radius:999px;font-family:'Bricolage Grotesque',system-ui,sans-serif;font-size:20px;font-weight:800;border:2px solid var(--navy);background:#fff;color:var(--navy)}
+.ward[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+.chip{min-height:44px;padding:0 20px;border-radius:999px;border:2px solid var(--navy);font-size:15px;font-weight:600;background:#fff;color:var(--navy)}
+.chip[aria-pressed=true]{background:var(--navy);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+.card{display:flex;flex-direction:column;gap:14px;min-width:0}
+.pic{position:relative;height:240px;border-radius:20px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cond{position:absolute;top:14px;left:14px;display:inline-flex;align-items:center;min-height:28px;padding:0 12px;border-radius:999px;background:#fff;font-size:13px;font-weight:600}
+.card h3{font-size:18px;font-weight:600;line-height:1.3}
+.meta{font-size:14px;color:var(--muted)}
+.buy{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px}
+.price{font-family:'Bricolage Grotesque',system-ui,sans-serif;font-weight:800;font-size:22px}
+.want{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;border:2px solid var(--navy);font-size:14px;font-weight:600}
+#how{padding:64px 24px}
+#how .wrap{display:flex;flex-direction:column;gap:32px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.step{display:flex;flex-direction:column;gap:12px;padding:28px;border-radius:20px;background:#fff;min-width:0}
+.step .n{width:44px;height:44px;border-radius:999px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque',system-ui,sans-serif;font-weight:800;font-size:20px}
+.step h3{font-size:20px;font-weight:600}
+.step p{color:var(--muted)}
+#contact{padding:0 24px 64px}
+.band{padding:48px 40px;border-radius:28px;background:var(--navy);color:#fff;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:28px 40px}
+.band .l{flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:12px}
+.band h2{text-wrap:balance}
+.band p{font-size:18px;color:#D6DCE8}
+.band .r{flex:1 1 280px;min-width:0}
+.wa{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;padding:20px 24px;border-radius:16px;background:var(--yellow);color:var(--navy);font-size:18px}
+.wa b{font-weight:700}
+.wa span{font-weight:500}
+footer{padding:0 24px 40px}
+footer .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 24px;font-size:14px;color:var(--muted)}
+footer .logo{font-size:18px;min-height:0;color:var(--navy)}
+@media (max-width:600px){h2{font-size:32px}.band{padding:36px 24px}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="wrap">
+<a href="#top" class="logo display">2nd<span>+</span>Chapter</a>
+<nav>
+<a href="#shop">Shop</a>
+<a href="#how">How it works</a>
+<a href="https://wa.me/601163794979" class="cta">WhatsApp us</a>
+</nav>
+</div>
+</header>
+
+<section id="top">
+<div class="wrap">
+<div class="hero-l">
+<span class="badge">Preloved fashion</span>
+<h1 class="display">Good threads deserve a 2nd chapter.</h1>
+<p class="lead">Great-condition pieces at the lowest prices around. Come for the bargain, stay for the fits.</p>
+<div class="btns">
+<a href="#shop" class="btn fill">Shop the drop</a>
+<a href="#how" class="btn line">How it works</a>
+</div>
+</div>
+<div class="hero-r">
+<div class="tag" style="background:var(--yellow);transform:rotate(-3deg)"><i></i><div><b>Great condition</b><small>Worn gently, loved plenty.</small></div></div>
+<div class="tag" style="background:var(--accent);color:#fff;transform:rotate(2deg)"><i></i><div><b>Lowest prices</b><small>Preloved prices your wallet will like.</small></div></div>
+<div class="tag" style="background:var(--navy);color:#fff;transform:rotate(-1.5deg)"><i></i><div><b>Men's + women's</b><small>Menswear first, womenswear too.</small></div></div>
+</div>
+</div>
+</section>
+
+<section id="shop">
+<div class="wrap">
+<div class="shop-head">
+<div>
+<h2 class="display">The latest drop</h2>
+</div>
+<div class="count" id="count"></div>
+</div>
+<div class="row" id="wardrobes" role="group" aria-label="Wardrobe"></div>
+<div class="row" id="chips"></div>
+<div class="grid" id="grid"></div>
+</div>
+</section>
+
+<section id="how">
+<div class="wrap">
+<h2 class="display">How it works</h2>
+<div class="steps">
+<div class="step"><div class="n">1</div><h3>Browse the drop</h3><p>Filter by type and spot the piece you like. Every listing shows its size and condition.</p></div>
+<div class="step"><div class="n">2</div><h3>WhatsApp us</h3><p>Send us the item name and your size. We will confirm it is still available.</p></div>
+<div class="step"><div class="n">3</div><h3>Pay and get it</h3><p>Payment and delivery are arranged with us on WhatsApp. No checkout, no fuss.</p></div>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="wrap">
+<div class="band">
+<div class="l">
+<h2 class="display">Spotted something you like?</h2>
+<p>WhatsApp us the item and your size. Contact and payment are all handled there. Pieces go fast because each one is a one-off.</p>
+</div>
+<div class="r">
+<a class="wa" href="https://wa.me/601163794979"><b>WhatsApp only</b><span>011-6379 4979</span></a>
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="wrap">
+<span class="logo display">2nd<span>+</span>Chapter</span>
+<span>Preloved men's and women's wardrobe. Great condition, lowest prices.</span>
+</div>
+</footer>
+
+<script>
+/* ============================================================
+   EDIT YOUR ITEMS HERE
+   - price: write the number only, e.g. "35" shows as RM 35
+   - image: put a photo file in the same folder (e.g. "jacket.jpg"), or leave "" for the placeholder
+   - sold: set to true to show a SOLD badge and hide the buy button
+   - cat must match one of the category names for that wardrobe
+   ============================================================ */
+var WA = "601163794979";
+var ITEMS = {
+  Men: [
+    { name: "Denim trucker jacket", cat: "Outerwear", size: "Size M", condition: "Great", tone: "#D6E2F8", price: "[PRICE]", image: "", sold: false },
+    { name: "Light blue oxford shirt", cat: "Tops", size: "Size L", condition: "Like new", tone: "#FFE9A8", price: "[PRICE]", image: "", sold: false },
+    { name: "Oversized graphic tee", cat: "Tops", size: "Size M", condition: "Great", tone: "#D3EBDD", price: "[PRICE]", image: "", sold: false },
+    { name: "Khaki slim chinos", cat: "Bottoms", size: "Waist 32", condition: "Great", tone: "#E3E7EE", price: "[PRICE]", image: "", sold: false },
+    { name: "Navy polo shirt", cat: "Tops", size: "Size L", condition: "Like new", tone: "#D6E2F8", price: "[PRICE]", image: "", sold: false },
+    { name: "Cargo shorts", cat: "Bottoms", size: "Waist 32", condition: "Great", tone: "#F7DFD3", price: "[PRICE]", image: "", sold: false },
+    { name: "White low-top sneakers", cat: "Shoes", size: "UK 8", condition: "Great", tone: "#E3E7EE", price: "[PRICE]", image: "", sold: false },
+    { name: "Canvas bucket hat", cat: "Accessories", size: "One size", condition: "Like new", tone: "#FFE9A8", price: "[PRICE]", image: "", sold: false }
+  ],
+  Women: [
+    { name: "Floral midi dress", cat: "Dresses", size: "Size M", condition: "Like new", tone: "#F7DFD3", price: "[PRICE]", image: "", sold: false },
+    { name: "Satin button blouse", cat: "Tops", size: "Size S", condition: "Great", tone: "#FFE9A8", price: "[PRICE]", image: "", sold: false },
+    { name: "Ribbed knit cardigan", cat: "Outerwear", size: "Size M", condition: "Great", tone: "#D3EBDD", price: "[PRICE]", image: "", sold: false },
+    { name: "High-waist straight jeans", cat: "Bottoms", size: "Waist 28", condition: "Great", tone: "#D6E2F8", price: "[PRICE]", image: "", sold: false },
+    { name: "Pleated midi skirt", cat: "Bottoms", size: "Size S", condition: "Like new", tone: "#E3E7EE", price: "[PRICE]", image: "", sold: false },
+    { name: "Linen wrap dress", cat: "Dresses", size: "Size L", condition: "Great", tone: "#D3EBDD", price: "[PRICE]", image: "", sold: false },
+    { name: "White canvas sneakers", cat: "Shoes", size: "EU 38", condition: "Great", tone: "#E3E7EE", price: "[PRICE]", image: "", sold: false },
+    { name: "Mini crossbody bag", cat: "Bags", size: "One size", condition: "Like new", tone: "#FFE9A8", price: "[PRICE]", image: "", sold: false }
+  ]
+};
+var CATS = {
+  Men: ["All", "Tops", "Bottoms", "Outerwear", "Shoes", "Accessories"],
+  Women: ["All", "Tops", "Bottoms", "Dresses", "Outerwear", "Shoes", "Bags"]
+};
+var LABELS = { Men: "Men's wardrobe", Women: "Women's wardrobe" };
+
+var sec = "Men", cat = "All";
+var PLACEHOLDER = '<svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 7a2 2 0 1 1 2 2c-1 .4-2 1-2 2v1"/><path d="M12 12 3.5 18a1 1 0 0 0 .6 1.8h15.8a1 1 0 0 0 .6-1.8L12 12z"/></svg>';
+
+function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+
+function render(){
+  var wEl = document.getElementById("wardrobes");
+  wEl.innerHTML = "";
+  Object.keys(LABELS).forEach(function(k){
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "ward"; b.textContent = LABELS[k];
+    b.setAttribute("aria-pressed", String(k === sec));
+    b.onclick = function(){ sec = k; cat = "All"; render(); };
+    wEl.appendChild(b);
+  });
+
+  var cEl = document.getElementById("chips");
+  cEl.innerHTML = "";
+  CATS[sec].forEach(function(c){
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "chip"; b.textContent = c;
+    b.setAttribute("aria-pressed", String(c === cat));
+    b.onclick = function(){ cat = c; render(); };
+    cEl.appendChild(b);
+  });
+
+  var shown = ITEMS[sec].filter(function(p){ return cat === "All" || p.cat === cat; });
+  document.getElementById("count").textContent = shown.length + (shown.length === 1 ? " piece" : " pieces");
+
+  document.getElementById("grid").innerHTML = shown.map(function(p){
+    var msg = "Hi! I am interested in the " + p.name + " (" + p.size + ").";
+    var url = "https://wa.me/" + WA + "?text=" + encodeURIComponent(msg);
+    var pic = p.image ? '<img src="' + esc(p.image) + '" alt="' + esc(p.name) + '" loading="lazy">' : PLACEHOLDER;
+    var badge = p.sold ? "Sold" : p.condition;
+    var price = String(p.price).charAt(0) === "[" ? "RM " + esc(p.price) : "RM " + esc(p.price);
+    var action = p.sold
+      ? '<span class="want" style="opacity:.5;border-style:dashed">Sold out</span>'
+      : '<a class="want" href="' + url + '">I want this</a>';
+    return '<article class="card">' +
+      '<div class="pic" style="background:' + esc(p.tone) + '">' + pic + '<span class="cond">' + esc(badge) + '</span></div>' +
+      '<div><h3>' + esc(p.name) + '</h3><div class="meta">' + esc(p.size) + ' · ' + esc(p.cat) + '</div></div>' +
+      '<div class="buy"><span class="price">' + price + '</span>' + action + '</div>' +
+      '</article>';
+  }).join("");
+}
+render();
+</script>
+</body>
+</html>
